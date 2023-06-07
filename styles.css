@@ -1,0 +1,417 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+#header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/image3.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+    margin: 20px;
+}
+
+.nav-links{
+    flex:1;
+    text-align: right;
+
+}
+
+
+nav ul{
+    float: right;
+    margin: 25px;
+}
+.nav-links ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #ffffff;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.text-box{
+    color: #ffffff;
+    position: relative;
+    top: 50%;
+    bottom:50%;
+    padding: 100px 70px;
+    margin: 20px;
+}
+ 
+.text-box h1{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+.text-box p{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.text-box button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+}
+.vendor{
+    background-color: #0080ff;
+}
+.sign-up{
+    background-color: #ffffff;
+    color:#0080ff;
+    font-size: 10px;
+}
+
+/* -- section 2--- */
+
+#key-features{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top:100px;
+}
+
+#key-features h1{
+    padding:10px;
+    color: #0080ff;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#key-features p{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin: 25px;
+    display:flex;
+    justify-content: space-between;
+}
+.key-features-col{
+    flex-basis: 31%;
+    padding: 20px 12px;
+    border-radius: 10px;
+    background: #fff3f3;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+
+
+}
+
+
+
+/* ----section3--- */
+
+#budgeting{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top:100px;
+    background-color: #0080ff;
+}
+
+#budgeting h1{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 10px;
+}
+#budgeting p{
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: 300px;
+    
+}
+.budgeting-col{
+    flex-basis: 31%;
+    padding: 20px 12px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    display:grid;
+}
+
+
+/* ------section 4------ */
+
+#why-jiggle{
+    width:90%;
+    margin: auto;
+    text-align: center;
+    padding-top:100px;
+    background-color: #ffffff;
+}
+#why-jiggle h1{
+    color: #0080ff;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.why-jiggle-col{
+    flex-basis: 31%;
+    padding: 20px 12px;
+    border-radius: 10px;
+    background: #fff3f3;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+    display: grid;
+}
+.why-jiggle-col h1{
+    font-size: 18px;
+    font-weight: 300;   
+}
+
+.why-jiggle-col p{
+    font-size: 10px;
+    font-weight: 100;
+    color: black;
+
+}
+
+
+/* .....section 5...... */
+
+#available{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top:100px;
+    background-color: #0080ff;
+
+}
+
+#available h1{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.available img{
+    margin-bottom: 3%;
+    width: fit-content;
+}
+
+.view-all {
+    border: none;
+    color:#0080ff;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    position: relative;
+    transition-duration: 0.4s;
+    margin-top: 10px;
+   
+}
+
+.view-all:hover{
+    background-color:brown;
+    color: #ffffff;
+}
+
+.bttn{
+    text-align: right;
+    margin:0.2px 15px 50px;
+}
+
+
+
+/* section 6...... */
+
+
+
+#having-troubles{
+    width: 100%;
+    padding-top:100px;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/rec.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.troubles-class{
+    flex-basis: 31%;
+    padding: 20px 12px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 0.5%;
+}
+
+#having-troubles h1, p {
+    color: #ffffff;
+    padding-left: 20px;
+    
+}
+#having-troubles h1{
+    font-size: 24px;
+    padding-bottom: 5%;
+}
+
+.troubles-img .grouppix{
+    position: absolute;
+    z-index: 1;
+}
+
+.troubles-text{
+    color: #ffffff;
+    margin: 10px;
+    width: 500px;
+}
+ 
+.troubles-text h1{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+.troubles-text p{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+
+/* ----section 7---- */
+
+#our-partners{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top:50px;
+    background-color:#ffffff;
+    
+}
+
+#our-partners h1{
+    font-size: 28px;
+    font-weight: 600;
+    color:#0080ff;
+}
+
+
+/* -----section 8---- */
+
+#prefooter{
+    background-color:lightslategrey;
+    background-position: center;
+    margin: auto;
+    background-size: cover;
+    padding-top: 70px;
+    padding-left: 20px;
+
+}
+
+.prefooter-col h1{
+    font-size: 18px;
+    color:blue;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.prefooter-col {
+    flex-basis: 31%;
+    padding: 20px 12px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+    margin-left: 15px;
+}
+.prefooter-col .sign-up{
+    width: 50px;
+    height: 25px;
+    padding: 4px;
+    margin-right: 5px;
+    margin-left: -3.5px;
+    background-color: #0080ff;
+    color: #ffffff;
+}
+
+
+.prefooter-col input{
+    width: 200px;
+   margin-left: 18px; 
+   height: 25px;
+
+}
+.prefooter-col img{
+    margin-left: 20px;
+    width: 20px;
+}
+
+.prefooter-col ::placeholder{
+    padding: 15px;
+
+}
+.prefooter-col label{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color:#0080ff 
+    display: flex;
+    font-weight:bold;
+    }
+
+/* ------section 9----- */
+
+#footer{
+    margin: auto;
+    background-color: saddlebrown;
+    width: 100%;
+    padding-top: 25px;
+
+}
+
+.footer-col li {
+    margin: auto;
+    position: relative;
+    list-style:none ;
+    display: inline-block;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media screen and (max-width:600px){
+    
+}
+/* -------- 
+.btnn{
+    border: none;
+    background-image: url(images/googleplay.png);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 5%;
+} 
+....*/
